@@ -2,7 +2,7 @@
   'use strict'
 
   let LibraryDAO = require('../dao/LibraryDAO')
-  let Book = require('../dao/Book')
+  let Book = require('../dao/Books')
 
   module.exports = function (callback, title) { // The title is optional and is only present when searching. (You need yo modify the books.js file first)
     const Patriot = new Book(1, 'Patriot Game', 'Tom Clancy', 'Thriller', '1990-01-01', 300, 'In the right place at the wrong time')

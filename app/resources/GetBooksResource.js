@@ -11,5 +11,6 @@
 
     const list = [Patriot, Population, Pride]
     console.log(list)
+    callback(JSON.stringify(list))
   }
 }())
